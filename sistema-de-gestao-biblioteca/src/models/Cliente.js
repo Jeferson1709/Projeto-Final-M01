@@ -26,7 +26,7 @@ export default class Cliente {
     this.endereco = endereco;
     
     // Data de criação do registro do cliente (definida no momento em que o cliente é criado).
-    this.createdAt = new Date().toLocaleDateString("pt-BR");
+    this.dataDeCriacao = new Date().toLocaleDateString("pt-BR");
     
   }
 }
