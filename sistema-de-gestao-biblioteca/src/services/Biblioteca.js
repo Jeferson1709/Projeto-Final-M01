@@ -85,7 +85,7 @@ export default class Biblioteca {
   }
 
   // Cadastrar um usuário novo.
-  cadastrarUsuario({ nome, email, idade = null, telefone, endereco, documento }) {
+  cadastrarUsuario({ nome, email, idade = null, telefone, endereco, cpf }) {
     // garante que o contador exista
     if (typeof this._idCounter !== 'number' || this._idCounter < 1) this._idCounter = 1;
 
@@ -94,7 +94,7 @@ export default class Biblioteca {
     if (idade) idadeValida(idade);
     if (email) validarEmail(email);
     if (telefone) validarTelefone(telefone);
-    if (documento) validaDocumento(documento);
+    if (cpf) validaDocumento(cpf);
 
     // Verifica unicidade do email (case-insensitive)
     if (email && this.usuarios.find(u => String(u.email || "").toLowerCase() === String(email).toLowerCase())) {
@@ -106,13 +106,13 @@ export default class Biblioteca {
 
 
     const UsuarioClass = awaitImportUsuario();
-    const usuario = new UsuarioClass({ id, nome, email, idade, telefone, endereco, documento });
+    const usuario = new UsuarioClass({ id, nome, email, idade, telefone, endereco, cpf });
 
     // Persistencia com data de criação.
     const usuarioPlain = {
       id: usuario.id,
       nome: usuario.nome,
-      documento: usuario.documento,
+      cpf: usuario.cpf,
       email: usuario.email,
       idade: usuario.idade,
       telefone: usuario.telefone,
@@ -249,11 +249,11 @@ function awaitImportUsuario() {
 
   // Retorna a definição da classe Usuário (leve, com createdAt).
   return class {
-    constructor({ id, nome, email = null, documento, idade = null, telefone, endereco }) {
+    constructor({ id, nome, email = null, cpf, idade = null, telefone, endereco }) {
       this.id = id;
       this.nome = nome;
       this.email = email;
-      this.documento = documento;
+      this.cpf = cpf;
       this.idade = idade;
       this.telefone = telefone;
       this.endereco = endereco;

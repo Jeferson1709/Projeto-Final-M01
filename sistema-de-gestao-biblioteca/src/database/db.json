@@ -1,0 +1,109 @@
+{
+  "idCounter": 44,
+  "usuarios": [
+    {
+      "id": 33,
+      "nome": "Jeferson Alves Santos",
+      "cpf": "000.000.000-00",
+      "email": "jeferson@teste.com",
+      "idade": 21,
+      "telefone": "11 99999-9999",
+      "endereco": "Progradores do amanhã",
+      "dataDeCriacao": "15/10/2025"
+    },
+    {
+      "id": 34,
+      "nome": "Rodrigo Barros Souza",
+      "cpf": "000.000.000-00",
+      "email": "rodrigo@teste.com",
+      "idade": 23,
+      "telefone": "11 99999-9999",
+      "endereco": "Progradores do amanhã",
+      "dataDeCriacao": "15/10/2025"
+    },
+    {
+      "id": 35,
+      "nome": "Beatriz Nunes de Deus",
+      "cpf": "000.000.000-00",
+      "email": "beatriz@teste.com",
+      "idade": 20,
+      "telefone": "11 99999-9999",
+      "endereco": "Progradores do amanhã",
+      "dataDeCriacao": "15/10/2025"
+    },
+    {
+      "id": 36,
+      "nome": "Vitória Queiroz Família",
+      "cpf": "000.000.000-00",
+      "email": "vitoria@teste.com",
+      "idade": 20,
+      "telefone": "11 99999-9999",
+      "endereco": "Progradores do amanhã",
+      "dataDeCriacao": "15/10/2025"
+    },
+    {
+      "id": 37,
+      "nome": "Breno Araujo Melo",
+      "cpf": "000.000.000-00",
+      "email": "breno@teste.com",
+      "idade": 20,
+      "telefone": "11 99999-9999",
+      "endereco": "Progradores do amanhã",
+      "dataDeCriacao": "15/10/2025"
+    },
+    {
+      "id": 38,
+      "nome": "Agda Barbosa de Oliveira",
+      "cpf": "000.000.000-00",
+      "email": "agda@teste.com",
+      "idade": 20,
+      "telefone": "11 99999-9999",
+      "endereco": "Progradores do amanhã",
+      "dataDeCriacao": "15/10/2025"
+    },
+    {
+      "id": 39,
+      "nome": "Clara Gabrielle Silva Roosenvelt",
+      "cpf": "000.000.000-00",
+      "email": "clara@teste.com",
+      "idade": 20,
+      "telefone": "11 99999-9999",
+      "endereco": "Progradores do amanhã",
+      "dataDeCriacao": "15/10/2025"
+    }
+  ],
+  "livros": [
+    {
+      "id": 40,
+      "titulo": "Dom Casmurro",
+      "autor": "Machado de Assis",
+      "alugadoPor": "disponível",
+      "status": "disponível",
+      "dataDeCriacao": "15/10/2025"
+    },
+    {
+      "id": 41,
+      "titulo": "O Senhor dos Anéis",
+      "autor": "J.R.R. Tolkien",
+      "alugadoPor": "disponível",
+      "status": "disponível",
+      "dataDeCriacao": "15/10/2025"
+    },
+    {
+      "id": 42,
+      "titulo": "O Pequeno Príncipe",
+      "autor": "Antoine de Saint-Exupéry",
+      "alugadoPor": "disponível",
+      "status": "disponível",
+      "dataDeCriacao": "15/10/2025"
+    },
+    {
+      "id": 43,
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "alugadoPor": "disponível",
+      "status": "disponível",
+      "dataDeCriacao": "15/10/2025"
+    }
+  ]
+}

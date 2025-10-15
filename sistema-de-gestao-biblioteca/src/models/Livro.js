@@ -2,7 +2,7 @@
 export default class Livro {
   
   // Construtor da classe que inicializa as propriedades do livro.
-  constructor({ id, titulo, autor, alugadoPor = null, status = "disponível", createdAt = null }) {
+  constructor({ id, titulo, autor, alugadoPor = null, status = "disponível", dataDeCriacao = null }) {
     
     // Identificador único do livro.
     this.id = id;
@@ -25,7 +25,7 @@ export default class Livro {
     // Data em que o livro foi criado/adicionado.
     // Se já existir uma data (por exemplo, ao carregar de um banco de dados), converte para Date.
     // Caso contrário, cria uma nova data com o momento atual.
-    this.createdAt = createdAt ? new Date(createdAt) : new Date();
+    this.dataDeCriacao = dataDeCriacao ? new Date(dataDeCriacao) : new Date();
   }
 
   // Método responsável por alugar o livro para um usuário.

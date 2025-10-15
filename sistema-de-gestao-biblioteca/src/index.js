@@ -151,8 +151,8 @@ function handleDevolverLivro() {
 // Busca livros por título e exibe resultados.
 function handleBuscarLivro() {
   try {
-    const termo = prompt("Titulo do Livro");
-    const resultados = biblioteca.buscarLivroPorTitulo(termo);
+    const titulo = prompt("Titulo do Livro");
+    const resultados = biblioteca.buscarLivroPorTitulo(titulo);
     exibirLivros(resultados);
   } catch (error) {
     console.error(chalk.redBright("Erro na busca:"), error.message);
