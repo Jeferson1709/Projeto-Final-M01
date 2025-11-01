@@ -28,19 +28,19 @@ Aplicação CLI em Node.js para cadastrar usuários e livros, realizar aluguel e
 
 ## Estrutura do projeto
 
-.
-├─ src/
-│  ├─ cli/               # Menu e prompts do CLI
-│  ├─ database/          # db.json (persistência em JSON)
-│  ├─ models/            # Modelos: Usuario, Livro
-│  ├─ services/
-│  │  └─ Biblioteca.js   # Regras de negócio e persistência
-│  ├─ utils/
-│  │  └─ validation.js   # Validações reutilizáveis
-│  └─ index.js           # Ponto de entrada do CLI
-├─ test/                 # Testes automatizados (node --test)
-├─ package.json
-└─ README.md
+### .
+### ├─ src/
+### │  ├─ cli/               # Menu e prompts do CLI
+### │  ├─ database/          # db.json (persistência em JSON)
+### │  ├─ models/            # Modelos: Usuario, Livro
+### │  ├─ services/
+### │  │  └─ Biblioteca.js   # Regras de negócio e persistência
+### │  ├─ utils/
+### │  │  └─ validation.js   # Validações reutilizáveis
+### │  └─ index.js           # Ponto de entrada do CLI
+### ├─ test/                 # Testes automatizados (node --test)
+### ├─ package.json
+### └─ README.md
 
 
 ## Testes
@@ -48,35 +48,17 @@ Aplicação CLI em Node.js para cadastrar usuários e livros, realizar aluguel e
 - A suíte cria uma instância de Biblioteca com arquivo temporário e valida CRUD de usuários/livros e fluxo de aluguel/devolução.
 
 
-
 ## Squad / Autores
 
-### [Jeferson Araújo](https://github.com/Jeferson1709)
-
-
-
-### [Beatriz Nunes](https://github.com/beatriznunes-dev)
-
-
-
-### [Rodrigo Barros](https://github.com/Rodrigo0e)
-
-
-
-### [Clara Roosenvelt](https://github.com/ClaraDevHub)
-
-
-
-### [Breno Araújo](https://github.com/Breno4raujo)
-
-
-
-### [Agda Oliveira](github.com/agdaoliveira27)
-
-
-
-### [Vitória Família](https://github.com/VitoriaFamilia)
-
+| Foto | Nome | Função | Git Hub |
+|------|------|---------|-----------|
+| <img width="80" height="80" alt="image" src="https://github.com/user-attachments/assets/8a0980b6-e489-4560-b160-725ae2472d2a" />| **Jeferson Alves** | Liderança | [🔗 Github](https://github.com/Jeferson1709) |
+| <img width="80" height="80" alt="image" src="https://github.com/user-attachments/assets/c73da9b2-0d2a-443a-ba92-1a1eeb6e3471" /> | **Beatriz Nunes** | Desenvolvedora | [🔗 Github](https://github.com/beatriznunes-dev) |
+| <img width="80" height="80" alt="image" src="https://github.com/user-attachments/assets/b8f4a0b9-168e-4755-a931-2fdf2b6581ad" /> | **Breno Araujo** | Desenvolvedor | [🔗 Github](https://github.com/Breno4raujo) |
+| <img width="80" height="80" alt="image" src="https://github.com/user-attachments/assets/52177de3-fb02-4b73-99cc-bb9e2f87d1eb" /> | **Clara Roosenvelt** | Desenvolvedora | [🔗 Github](https://github.com/ClaraDevHub) |
+| <img width="80" height="80" alt="image" src="https://github.com/user-attachments/assets/8d3706df-626d-4ca2-b204-818cbb82fc1d" />c| **Rodrigo Barros** | Desenvolvedor | [🔗 Github](https://github.com/Rodrigo0e) |
+| <img width="80" height="80" alt="image" src="https://github.com/user-attachments/assets/d5be98d7-b681-41ae-a123-6bac42da4d93" /> | **Agda Oliveira** | Desenvolvedora | [🔗 Github](https://github.com/agdaoliveira27) |
+| <img width="80" height="80" alt="image" src="https://github.com/user-attachments/assets/30328f02-5d82-4987-8bd6-7e09d4f91727" /> | **Vitória Família** | Desenvolvedora | [🔗 Github](https://github.com/VitoriaFamilia) |
 
 ## Tecnologias Utilizadas
 - Node.js: Plataforma usada para executar o JavaScript no servidor.
